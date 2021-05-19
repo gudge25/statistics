@@ -1,0 +1,112 @@
+asteriskcdrdb:
+    Array ( [Tables_in_asteriskcdrdb] => cdr [0] => cdr )
+        Array ( [Field] => calldate [0] => calldate [Type] => datetime [1] => datetime [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => 0000-00-00 00:00:00 [4] => 0000-00-00 00:00:00 [Extra] => [5] => )
+        Array ( [Field] => clid [0] => clid [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => src [0] => src [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => dst [0] => dst [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => dcontext [0] => dcontext [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => channel [0] => channel [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => dstchannel [0] => dstchannel [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => lastapp [0] => lastapp [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => lastdata [0] => lastdata [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => duration [0] => duration [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => [3] => [Default] => 0 [4] => 0 [Extra] => [5] => )
+        Array ( [Field] => billsec [0] => billsec [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => [3] => [Default] => 0 [4] => 0 [Extra] => [5] => )
+        Array ( [Field] => disposition [0] => disposition [Type] => varchar(45) [1] => varchar(45) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => amaflags [0] => amaflags [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => [3] => [Default] => 0 [4] => 0 [Extra] => [5] => )
+        Array ( [Field] => accountcode [0] => accountcode [Type] => varchar(20) [1] => varchar(20) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => uniqueid [0] => uniqueid [Type] => varchar(32) [1] => varchar(32) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => userfield [0] => userfield [Type] => varchar(255) [1] => varchar(255) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => did [0] => did [Type] => varchar(50) [1] => varchar(50) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => recordingfile [0] => recordingfile [Type] => varchar(255) [1] => varchar(255) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cnum [0] => cnum [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cnam [0] => cnam [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => outbound_cnum [0] => outbound_cnum [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => outbound_cnam [0] => outbound_cnam [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => dst_cnam [0] => dst_cnam [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => linkedid [0] => linkedid [Type] => varchar(32) [1] => varchar(32) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => peeraccount [0] => peeraccount [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => sequence [0] => sequence [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => [3] => [Default] => 0 [4] => 0 [Extra] => [5] => )
+
+    Array ( [Tables_in_asteriskcdrdb] => cel [0] => cel )
+        Array ( [Field] => id [0] => id [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => [4] => [Extra] => auto_increment [5] => auto_increment )
+        Array ( [Field] => eventtype [0] => eventtype [Type] => varchar(30) [1] => varchar(30) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => eventtime [0] => eventtime [Type] => datetime [1] => datetime [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cid_name [0] => cid_name [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cid_num [0] => cid_num [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cid_ani [0] => cid_ani [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cid_rdnis [0] => cid_rdnis [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => cid_dnid [0] => cid_dnid [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => exten [0] => exten [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => context [0] => context [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => channame [0] => channame [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => appname [0] => appname [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => appdata [0] => appdata [Type] => varchar(255) [1] => varchar(255) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => amaflags [0] => amaflags [Type] => int(11) [1] => int(11) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => accountcode [0] => accountcode [Type] => varchar(20) [1] => varchar(20) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => uniqueid [0] => uniqueid [Type] => varchar(32) [1] => varchar(32) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => linkedid [0] => linkedid [Type] => varchar(32) [1] => varchar(32) [Null] => NO [2] => NO [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => peer [0] => peer [Type] => varchar(80) [1] => varchar(80) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => userdeftype [0] => userdeftype [Type] => varchar(255) [1] => varchar(255) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => extra [0] => extra [Type] => varchar(512) [1] => varchar(512) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    Array ( [Tables_in_asteriskcdrdb] => ivr [0] => ivr )
+        Array ( [Field] => q1 [0] => q1 [Type] => varchar(45) [1] => varchar(45) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => q2 [0] => q2 [Type] => varchar(45) [1] => varchar(45) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => q3 [0] => q3 [Type] => varchar(45) [1] => varchar(45) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => data [0] => data [Type] => datetime [1] => datetime [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    Array ( [Tables_in_asteriskcdrdb] => survey [0] => survey )
+        Array ( [Field] => num [0] => num [Type] => varchar(20) [1] => varchar(20) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => operator [0] => operator [Type] => varchar(20) [1] => varchar(20) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => queue [0] => queue [Type] => varchar(20) [1] => varchar(20) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => valuation [0] => valuation [Type] => varchar(20) [1] => varchar(20) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => date [0] => date [Type] => datetime [1] => datetime [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    ****************************************************************************
+    qstatslite:
+    Array ( [Tables_in_qstatslite] => qagent [0] => qagent )
+        Array ( [Field] => agent_id [0] => agent_id [Type] => int(6) [1] => int(6) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => [4] => [Extra] => auto_increment [5] => auto_increment )
+        Array ( [Field] => agent [0] => agent [Type] => varchar(40) [1] => varchar(40) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    Array ( [Tables_in_qstatslite] => qevent [0] => qevent )
+        Array ( [Field] => event_id [0] => event_id [Type] => int(2) [1] => int(2) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => 0 [4] => 0 [Extra] => [5] => )
+        Array ( [Field] => event [0] => event [Type] => varchar(40) [1] => varchar(40) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    Array ( [Tables_in_qstatslite] => qname [0] => qname )
+        Array ( [Field] => qname_id [0] => qname_id [Type] => int(6) [1] => int(6) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => [4] => [Extra] => auto_increment [5] => auto_increment )
+        Array ( [Field] => queue [0] => queue [Type] => varchar(40) [1] => varchar(40) [Null] => NO [2] => NO [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+    Array ( [Tables_in_qstatslite] => queue_stats [0] => queue_stats )
+        Array ( [Field] => queue_stats_id [0] => queue_stats_id [Type] => int(12) [1] => int(12) [Null] => NO [2] => NO [Key] => PRI [3] => PRI [Default] => [4] => [Extra] => auto_increment [5] => auto_increment ) 
+        Array ( [Field] => uniqueid [0] => uniqueid [Type] => varchar(40) [1] => varchar(40) [Null] => YES [2] => YES [Key] => MUL [3] => MUL [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => datetime [0] => datetime [Type] => datetime [1] => datetime [Null] => NO [2] => NO [Key] => [3] => [Default] => 0000-00-00 00:00:00 [4] => 0000-00-00 00:00:00 [Extra] => [5] => )
+        Array ( [Field] => qname [0] => qname [Type] => int(6) [1] => int(6) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => qagent [0] => qagent [Type] => int(6) [1] => int(6) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => qevent [0] => qevent [Type] => int(2) [1] => int(2) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => info1 [0] => info1 [Type] => varchar(40) [1] => varchar(40) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => info2 [0] => info2 [Type] => varchar(40) [1] => varchar(40) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+        Array ( [Field] => info3 [0] => info3 [Type] => varchar(40) [1] => varchar(40) [Null] => YES [2] => YES [Key] => [3] => [Default] => [4] => [Extra] => [5] => )
+
+
+
+
+         //$dbs = $dbh->query( 'SHOW DATABASES' );
+
+/*while( ( $db = $dbs->fetchColumn( 0 ) ) !== false )
+{
+    echo $db.'<br>';
+}
+
+    $showall = $dbh->query('SHOW TABLES');
+foreach ($showall as $key => $value) {
+
+    print_r($value);
+    echo '<br>';
+}
+
+
+    $result = $dbh->query('SHOW COLUMNS FROM survey ');
+    foreach ($result as $key => $value) {
+     print_r($value);
+        echo '<br>';
+    }*/
